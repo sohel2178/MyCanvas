@@ -170,7 +170,7 @@ function MiniBall(x,y,radius,color,velocityY){
 
   this.velocity={
     x:Math.floor((Math.random()-0.5)*10)+1,
-    y: randBetween(8,20) //50/Math.pow(this.radius,2)
+    y: randBetween(8,13) //50/Math.pow(this.radius,2)
   }
   this.gravity=1
   this.friction =0.99
