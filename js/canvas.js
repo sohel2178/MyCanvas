@@ -5,9 +5,9 @@ canvas.height = innerHeight
 const earthHeight =25;
 
 var img = new Image()
-img.src = 'cloud.png'
+img.src = 'img/cloud.png'
 var mountain = new Image()
-mountain.src ='mountain.png'
+mountain.src ='img/mountain.png'
 
 /** @type {CanvasRenderingContext2D} */
 var ctx = canvas.getContext('2d');
